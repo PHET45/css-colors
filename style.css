@@ -1,1 +1,19 @@
 /* Start coding here */
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  font-family: serif;
+}
+
+.center-box {
+  background: hsla(0, 50%, 100%, 0.5);
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.1);
+  max-width: 420px;
+  text-align: center;
+}
