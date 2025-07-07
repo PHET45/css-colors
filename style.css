@@ -5,8 +5,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* ไล่เฉดสีพื้นหลังจาก hsl(0, 100%, 70%) ไป hsl(240, 100%, 70%) */
-  background: linear-gradient(135deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  /* ไล่เฉดสีพื้นหลังจากซ้ายล่างไปขวาบน */
+  background: linear-gradient(to top right, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
 }
 
 .box {
